@@ -1,16 +1,20 @@
-# Challenge Telecom X - Parte 2: Prevendo Churn 🚀
+# Challenge Telecom X - Parte 2: Machine Learning 🚀
 
-## 🎯 Objetivo
-Desenvolver modelos preditivos capazes de prever quais clientes têm maior chance de cancelar seus serviços (evasão), permitindo que a Telecom X tome decisões estratégicas antecipadas.
+Este projeto foca na criação de modelos preditivos para antecipar a evasão de clientes (**Churn**) na Telecom X.
 
-## 🧠 Missão Técnica
-* Realizar o pré-processamento dos dados tratados na Parte 1.
-* Analisar a correlação entre as variáveis.
-* Treinar e avaliar modelos de classificação (Machine Learning).
-* Interpretar os resultados e sugerir ações de negócio.
+## 🛠️ Tecnologias
+* **Python** (Pandas, Numpy)
+* **Scikit-learn** (Machine Learning)
+* **Seaborn/Matplotlib** (Visualização)
 
-## 🧰 Ferramentas Utilizadas
-* Python
-* Pandas & Numpy
-* Scikit-learn (Machine Learning)
-* Matplotlib & Seaborn (Visualização)
+## 🧠 Metodologia
+1. **Pré-processamento**: Transformação de variáveis categóricas em numéricas (*Encoding*) e limpeza de dados (tratamento de `Charges.Total`).
+2. **Modelagem**: Implementação de modelos de classificação: **Regressão Logística** e **Random Forest**.
+3. **Avaliação**: Uso de métricas como Acurácia, Recall e Matriz de Confusão.
+
+## 📈 Principais Insights
+* O modelo de **Regressão Logística** obteve uma acurácia de **82%**.
+* Os fatores que mais influenciam o Churn são o **valor das cobranças**, o **tempo de contrato** e o **vínculo mensal**.
+
+## 🏁 Conclusão
+O projeto permitiu identificar os perfis de clientes em risco, fornecendo à Telecom X uma ferramenta baseada em dados para reduzir a taxa de evasão e otimizar estratégias de retenção.
